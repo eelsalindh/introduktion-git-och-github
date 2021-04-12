@@ -4,6 +4,7 @@ getColorSchemes();
 addScheme(1);
 document.querySelector("#top > div:first-child").classList.add("selected");
 
+//Hämta färgschema TESSSTTTT
 function getColorSchemes(){
     for (let i=1; i < 5; i++) {
         let div = document.createElement("div");
